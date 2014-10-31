@@ -1,0 +1,6 @@
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\Group Picker\Group Picker\bin\Debug\Group Picker.exe.config
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\Group Picker\Group Picker\obj\Debug\Group Picker.csprojResolveAssemblyReference.cache
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\Group Picker\Group Picker\bin\Debug\Group Picker.exe
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\Group Picker\Group Picker\bin\Debug\Group Picker.pdb
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\Group Picker\Group Picker\obj\Debug\Group Picker.exe
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\Group Picker\Group Picker\obj\Debug\Group Picker.pdb

@@ -1,0 +1,6 @@
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\GroupLoop\GroupLoop\bin\Debug\GroupLoop.exe.config
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\GroupLoop\GroupLoop\obj\Debug\GroupLoop.csprojResolveAssemblyReference.cache
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\GroupLoop\GroupLoop\bin\Debug\GroupLoop.exe
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\GroupLoop\GroupLoop\bin\Debug\GroupLoop.pdb
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\GroupLoop\GroupLoop\obj\Debug\GroupLoop.exe
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\GroupLoop\GroupLoop\obj\Debug\GroupLoop.pdb
