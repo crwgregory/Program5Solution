@@ -23,12 +23,33 @@ namespace WeekendHomeween10_30
             //Yodaizer("People tell me to slow my roll. I'm skreaming out fk that!");
             //Yodaizer3000("you are good");
 
-
+            TextStats("You've given me more than I can return!");
 
             Console.ReadKey();
         }
 
-
+        static void TextStats(string input)
+        {
+            string[] stringArray = input.Split(' ');
+            char[] vowel = new char[5] { 'a', 'e', 'i', 'o', 'u' };
+            int numberOfVowels = 0;
+            string vowels = "aeiou";
+            //prints # of char's
+            Console.WriteLine("There are " + input.Length + " characters in this string!");
+            Console.WriteLine("There are " + stringArray.Length + " words in this string! You lucky dog you.");
+            
+            
+            for (int i = 0; i < input.Length; i++)
+            {
+                string theVowel = stringArray[i];
+                if ()
+                {
+                    numberOfVowels++;
+                }
+                
+            }
+            Console.WriteLine(numberOfVowels);
+        }
 
         /// <summary>
         /// If the sentence has 3 words it will become words to live by.
