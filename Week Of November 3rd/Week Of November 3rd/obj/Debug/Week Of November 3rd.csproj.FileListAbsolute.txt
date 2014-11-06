@@ -1,0 +1,6 @@
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\Week Of November 3rd\Week Of November 3rd\bin\Debug\Week Of November 3rd.exe.config
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\Week Of November 3rd\Week Of November 3rd\obj\Debug\Week Of November 3rd.csprojResolveAssemblyReference.cache
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\Week Of November 3rd\Week Of November 3rd\bin\Debug\Week Of November 3rd.exe
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\Week Of November 3rd\Week Of November 3rd\bin\Debug\Week Of November 3rd.pdb
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\Week Of November 3rd\Week Of November 3rd\obj\Debug\Week Of November 3rd.exe
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\Week Of November 3rd\Week Of November 3rd\obj\Debug\Week Of November 3rd.pdb

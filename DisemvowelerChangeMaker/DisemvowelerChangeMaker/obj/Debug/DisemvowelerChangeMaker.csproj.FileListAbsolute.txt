@@ -1,0 +1,6 @@
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\DisemvowelerChangeMaker\DisemvowelerChangeMaker\bin\Debug\DisemvowelerChangeMaker.exe.config
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\DisemvowelerChangeMaker\DisemvowelerChangeMaker\bin\Debug\DisemvowelerChangeMaker.exe
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\DisemvowelerChangeMaker\DisemvowelerChangeMaker\bin\Debug\DisemvowelerChangeMaker.pdb
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\DisemvowelerChangeMaker\DisemvowelerChangeMaker\obj\Debug\DisemvowelerChangeMaker.csprojResolveAssemblyReference.cache
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\DisemvowelerChangeMaker\DisemvowelerChangeMaker\obj\Debug\DisemvowelerChangeMaker.exe
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\DisemvowelerChangeMaker\DisemvowelerChangeMaker\obj\Debug\DisemvowelerChangeMaker.pdb

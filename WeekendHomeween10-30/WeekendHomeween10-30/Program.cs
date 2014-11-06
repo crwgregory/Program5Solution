@@ -30,9 +30,9 @@ namespace WeekendHomeween10_30
                 //IsPrime(i);  
             }
 
-            DashInsert(8675309);
+            DashInsert(326598);
             
-
+            
             Console.ReadKey();
         }
 
@@ -64,7 +64,6 @@ namespace WeekendHomeween10_30
                     }
                     //checks to see if number is even 
                     //if number is even logs a zero to odd or not list
-                    //if it is even it runs for loop again
                     oddOrNotZeroIsEvenOneIsOdd.Add('0');
                 }
                 else
@@ -89,7 +88,7 @@ namespace WeekendHomeween10_30
            {
                         
                         
-                if (oddOrNotZeroIsEvenOneIsOdd[y] == '1' && oddOrNotZeroIsEvenOneIsOdd[x] == '1')
+               if (oddOrNotZeroIsEvenOneIsOdd[y] == '1' && oddOrNotZeroIsEvenOneIsOdd[x] == '1')
                 {
                     //adds a dash to list of numbers at index of two odd numbers
                     //also checks if there are already dash's to change the index value if there are
@@ -117,31 +116,29 @@ namespace WeekendHomeween10_30
         static void IsPrime(int number)
         {
 
-            int prime = 0;
             
+            bool myBool = true;
             //for loop starts at 2 to exlude 1, because all numbers besides 0 are devisable by 1
             //then goes through and sees if any number between the inputed number and 2 can go into the inputed number evenly
             //if it can then it adds a number to the counter 'prime'
             for (int i = 2; i < number; i++)
             {
-                if (number % i == 0)
+                if (number % i == 0 && myBool)
                 {
-                    prime++;
+                    myBool = false;
                 }
-                
             }
             
             //sees if prime is still equal to zero, if it is it means that no number could of gone into the input number.
             //could also use a bool here and set it to false at anytime. doing that it could save memory because u could use a while loop to stop as soon 
             //as a number was found that could go into input number
-            if (prime != 0)
+            if (myBool)
             {
-                Console.WriteLine(number);
-
+                Console.WriteLine(number + " is a prime number.");
             }
             else
             {
-                Console.WriteLine(number + " is a prime number.");
+                Console.WriteLine(number);
             }
 
         }
@@ -170,14 +167,16 @@ namespace WeekendHomeween10_30
                 //checks for vowels and add a to a counter if it is a vowel, the rest are self explained
                 if (i == 'a' || i == 'e' || i == 'i' || i == 'o' || i == 'u')
                 {
+                    //"aeio".Contains(i)
                     numberOfVowels++;
                 }
                 else if (i == ' ' || i == '.' || i == '!')
+                    
                 {
                     numberOfSpecial++;
                 }
                 // any thing left is a consonant, (for this to be 100% true we would have to add in all of the special characters, or 
-                    //check for all consonants.
+                //check for all consonants.
                 else
                 {
                     numberOfConsonants++;
@@ -206,6 +205,10 @@ namespace WeekendHomeween10_30
             {
                 Console.Write(stringArray[2] + ", " + stringArray[0] + " " + stringArray[1]);
             }
+            else
+            {
+                Console.WriteLine("You need to enter a thee word phrase for Yodaizer3000 to work.");
+            }
         }
 
         /// <summary>
@@ -215,7 +218,7 @@ namespace WeekendHomeween10_30
         static void Yodaizer(string text)
         {
             //creates string array of the words in the input text
-            string[] stringArray = text.Split(' ');
+            string[] stringArray = text.Replace(".", "").Split(' ');
             //loops backwords through the array and prints the last word first and so on
             for (int i = stringArray.Length - 1; i >= 0; i--)
             {

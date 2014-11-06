@@ -10,11 +10,13 @@ namespace GroupLoop
     {
         static void Main(string[] args)
         {
-            groupMaker(20, 5);
+            groupMaker(18, 2);
 
             Console.ReadKey();
         }
-
+        //to really make this program run the best way, I would need to learn how to get access to a database that holds the names of all the class members
+        //then to loop through this and create the list that the program would use.
+        //also if I have a number of people not divisable by the group size then It leaves thoughs people.
         static void groupMaker(int ClassSize, int GroupSize)
         {
             //create lists
@@ -55,11 +57,15 @@ namespace GroupLoop
                         
                         if (GroupList.Count() == GroupSize)
 	                                    {
+                                            
                                             Console.WriteLine("Group " + WhatGroup);
                                             for (int x = 0; x < GroupSize ; x++)
                                             {
-                                                Console.WriteLine("# " + GroupList[x]);
+                                                Console.Write("#" + GroupList[x] + " ");
+                                                
                                             }
+                                            Console.WriteLine("\n");
+                                            Console.WriteLine("------------------");
                                             GroupList.Clear();
                                             WhatGroup++;
 			                            }
