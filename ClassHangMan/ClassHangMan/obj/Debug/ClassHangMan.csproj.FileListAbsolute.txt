@@ -1,0 +1,6 @@
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\ClassHangMan\ClassHangMan\bin\Debug\ClassHangMan.exe.config
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\ClassHangMan\ClassHangMan\bin\Debug\ClassHangMan.exe
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\ClassHangMan\ClassHangMan\bin\Debug\ClassHangMan.pdb
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\ClassHangMan\ClassHangMan\obj\Debug\ClassHangMan.csprojResolveAssemblyReference.cache
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\ClassHangMan\ClassHangMan\obj\Debug\ClassHangMan.exe
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\ClassHangMan\ClassHangMan\obj\Debug\ClassHangMan.pdb

@@ -1,0 +1,85 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    @*links to any scripts you need*@
+    @*link style sheet*@
+    @*ravor comment, only visible to you*@
+    <link href="~/StyleSheet.css" rel="stylesheet" />
+    <style>
+        body{
+            /*background-color: red;*/
+            background-image: url("http://nuclearpixel.com/content/blog/2010-05-14_nuclear_pixel_5_space_background_wallpapers/nuclearpixel_dot_com_-_space_bg_wallpaper_1920x1200.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center; 
+            background-color: #3D4036
+        }
+        iframe{
+            background-position:center;
+        }
+        .button {
+            padding: 5px;
+            /*background-color: #F3FFD9;*/
+            enable-background:accumulate;
+            
+            border: 1px solid #666;
+            color: white;
+            text-decoration: none;
+            display:normal;
+            vertical-align: middle;
+        }
+        .divider {
+            width:30px;
+            height:50px;
+            display:inline-block;
+        }
+        ul{
+            list-style-type: none;
+        }
+        header{
+            /*background-color: white;*/
+            enable-background:accumulate;
+            max-height:none;
+            top:initial;
+            padding:0px;
+            float:left;
+        }
+        h2{
+            color:white;
+        }
+        h3{
+            color:white;
+        }
+
+</style>
+    <title>_layout</title>
+</head>
+<body>
+    <header>
+        @*<div class="divider"></div>*@
+        @*<div class="divider"></div>*@
+        @*title logo*@
+        <nav>
+            <ul>
+                <li class=""><a class="button" href="/">Home</a></li>
+                <div class="divider"></div>
+                <li><a class="button" href="/Home/About">About</a></li>
+                <div class="divider"></div>
+                <li><a class="button" href="/Home/Resume">Resumé</a></li>
+                <div class="divider"></div>
+                <li><a class="button" href="/Home/Project">Projects</a></li>
+                <div class="divider"></div>
+                <li><a class="button" href="/Home/Blog">Blog</a></li>
+                <div class="divider"></div>
+                <li><a class="button" href="/Home/Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div> 
+        @RenderBody()
+    </div>
+</body>
+</html>

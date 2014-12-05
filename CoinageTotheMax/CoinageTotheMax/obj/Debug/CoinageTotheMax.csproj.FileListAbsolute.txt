@@ -1,0 +1,6 @@
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\CoinageTotheMax\CoinageTotheMax\bin\Debug\CoinageTotheMax.exe.config
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\CoinageTotheMax\CoinageTotheMax\bin\Debug\CoinageTotheMax.exe
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\CoinageTotheMax\CoinageTotheMax\bin\Debug\CoinageTotheMax.pdb
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\CoinageTotheMax\CoinageTotheMax\obj\Debug\CoinageTotheMax.csprojResolveAssemblyReference.cache
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\CoinageTotheMax\CoinageTotheMax\obj\Debug\CoinageTotheMax.exe
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\CoinageTotheMax\CoinageTotheMax\obj\Debug\CoinageTotheMax.pdb
