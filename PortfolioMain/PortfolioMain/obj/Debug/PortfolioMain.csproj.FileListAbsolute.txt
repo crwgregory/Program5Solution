@@ -16,3 +16,7 @@ C:\Users\Technologist SP\Documents\GitHub\Program5Solution\PortfolioMain\Portfol
 C:\Users\Technologist SP\Documents\GitHub\Program5Solution\PortfolioMain\PortfolioMain\obj\Debug\PortfolioMain.csprojResolveAssemblyReference.cache
 C:\Users\Technologist SP\Documents\GitHub\Program5Solution\PortfolioMain\PortfolioMain\obj\Debug\PortfolioMain.dll
 C:\Users\Technologist SP\Documents\GitHub\Program5Solution\PortfolioMain\PortfolioMain\obj\Debug\PortfolioMain.pdb
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\PortfolioMain\PortfolioMain\bin\EntityFramework.dll
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\PortfolioMain\PortfolioMain\bin\EntityFramework.SqlServer.dll
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\PortfolioMain\PortfolioMain\bin\EntityFramework.xml
+C:\Users\Technologist SP\Documents\GitHub\Program5Solution\PortfolioMain\PortfolioMain\bin\EntityFramework.SqlServer.xml

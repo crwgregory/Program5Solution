@@ -38,7 +38,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -91,6 +99,27 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\BlogComment.cs">
+      <DependentUpon>BlogDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\BlogDataModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BlogDataModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\BlogDataModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BlogDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\BlogDataModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BlogDataModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\BLogPost.cs">
+      <DependentUpon>BlogDataModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -104,6 +133,23 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Project.cshtml" />
     <Content Include="Views\Resume\Refrences.cshtml" />
+    <EntityDeploy Include="Models\BlogDataModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>BlogDataModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\BlogDataModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>BlogDataModel.edmx</DependentUpon>
+      <LastGenOutput>BlogDataModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\BlogDataModel.edmx.diagram">
+      <DependentUpon>BlogDataModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="Models\BlogDataModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>BlogDataModel.edmx</DependentUpon>
+      <LastGenOutput>BlogDataModel.cs</LastGenOutput>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -114,8 +160,10 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Content\" />
-    <Folder Include="Models\" />
     <Folder Include="Scripts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
