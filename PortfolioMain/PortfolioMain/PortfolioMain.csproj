@@ -88,8 +88,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AnimationINFO.css" />
     <Content Include="Global.asax" />
     <Content Include="StyleSheet.css" />
+    <Content Include="Animation.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

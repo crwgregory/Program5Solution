@@ -4,8 +4,13 @@
     Layout = "~/Views/Shared/_layout.cshtml";
 }
 
-<h2>Resume</h2>
 
-<iframe src="https://drive.google.com/open?id=0B9GYJU_2UmFFRFRRLWc1S3BQV1k&authuser=0" width="800" height="600" frameborder="0"></iframe>
+<header></header>
 
-<a class="button" href="@Url.Action("Refrences","Resume")">Refrences</a>
+<div id='idiv'>
+    <iframe id="iframe_main" src="https://drive.google.com/open?id=0B9GYJU_2UmFFdUljMmx6d1p4aEk&authuser=0" width="300" height="300" frameborder="0"></iframe>
+    @*</div>
+<div id="iref">*@
+    <iframe id="iframe_ref" src="https://drive.google.com/open?id=0B9GYJU_2UmFFTjgtNFdlalU5bEE&authuser=0" width="300" height="300" frameborder="0"></iframe>
+</div>
+@*<a class="button" id="refrences" href="@Url.Action("Refrences","Resume")">Refrences</a>*@

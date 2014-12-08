@@ -1,33 +1,42 @@
-﻿<!DOCTYPE html>
-<html>
+﻿@{
+    ViewBag.Title = "Refrences";
+    Layout = "~/Views/Shared/_layout.cshtml";
+
+}
 <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <style>
+         body{
+            /*background-color: red;*/
+            background-image: url("http://www.desktop-image.com/wp-content/uploads/2014/06/space-wallpaper-1920x10801.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center; 
+            background-color: #183C69;
+        }
+    </style>
 </head>
-<body onload="onLoad()">
-    <script type="text/javascript">
-        var jsilConfig = {
-            printStackTrace: false,
-            xna: 4,
+<body>
+    <div id="blackbox"></div>
 
-            manifests: [
-              "YOUR APPLICATION NAME.exe",
-              "Content/YOUR APPLICATION NAME.contentproj"
-            ],
-        };
-    </script>
-    <script src="../Libraries/JSIL.js" type="text/javascript"></script>
+    <div class="gravgame" id="gravtext">
 
-    <canvas id="canvas" width="1280" height="720"></canvas><br>
+        <iframe id="iframe_grav" src="https://drive.google.com/open?id=0B9GYJU_2UmFFcTZjTGU2RDFGUDg&authuser=0" width="300" height="300" frameborder="0" z-index="-1"> </iframe>
+        <img id="f3" src="http://i.imgur.com/YisF1dw.jpg" width="800" height="500">
+        <img id="f2" src="http://i.imgur.com/pemDVrV.jpg" width="800" height="500">
+        <img id="f1" src="http://i.imgur.com/Wo6rvxb.jpg" width="800" height="500">
+    </div>
 
-    <div id="log"></div>
+    <iframe id="iframe_ship" src="https://drive.google.com/open?id=0B9GYJU_2UmFFZFBHRjQ4elJrT00&authuser=0" width="300" height="300" frameborder="0" z-index="-1"> </iframe>
+    <div class="battleship">
+        <img id="f3" src="http://i.imgur.com/CWpoaKs.jpg" width="500" height="300">
+        <img id="f2" src="http://i.imgur.com/8zYpASi.jpg" width="500" height="300">
+        <img id="f1" src="http://i.imgur.com/Vz8x8tz.jpg" width="500" height="300">
+    </div>
 
-    <script type="text/javascript">
-        function runMain() {
-            // We can't invoke Main() since it disposes the Game immediately, breaking everything.
-            //var asm = JSIL.GetAssembly("YOUR APPLICATION NAME", true);
-            var game = new asm.Namestate.Shootin();
-            game.Run();
-        };
-    </script>
+    <iframe id="iframe_cheese" src="https://drive.google.com/open?id=0B9GYJU_2UmFFM1BpS0RYQk83NFE&authuser=0" width="300" height="300" frameborder="0" z-index="-1"> </iframe>
+    <div class="cheesefinder">
+        <img id="f3" src="http://i.imgur.com/0jRVEs6.jpg" width="500" height="300">
+        <img id="f2" src="http://i.imgur.com/B30z1aE.jpg" width="500" height="300">
+        <img id="f1" src="http://i.imgur.com/Kgx8ULi.jpg" width="500" height="300">
+    </div>
 </body>
-</html>

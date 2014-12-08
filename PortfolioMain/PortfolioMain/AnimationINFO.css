@@ -1,0 +1,83 @@
+﻿body {
+}
+
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#cf img.bottom {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+img.bottom{
+    opacity:0;
+}
+#cf img.top:hover {
+  opacity:0;
+  
+}
+    #cf img.bottom:hover{
+    opacity:100;
+}
+#iframe_grav{
+        left: 39%;
+        position:absolute;
+        
+        z-index:-1;
+        }
+#iframe_grav:hover {
+        -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        -o-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
+        left: 22%;
+        position:absolute;
+        height: 60%;
+        width: 50%;
+        z-index: 10;
+        }
+
+#iframe_ship{
+        left: 25.5%;
+        position:absolute;
+        top: 60%;
+        z-index:-1;
+        }
+#iframe_ship:hover {
+        -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        -o-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
+        left: 26%;
+        top:0;
+        position:absolute;
+        height: 100%;
+        width: 50%;
+        z-index: 10;
+        }
+
+#iframe_cheese{
+        left: 52%;
+        position:absolute;
+        top: 60%;
+        z-index:-1;
+        }
+#iframe_cheese:hover {
+        -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        -o-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
+        left: 26%;
+        top: 10%;
+        position:absolute;
+        height: 70%;
+        width: 50%;
+        z-index: 10;
+        }

@@ -3,6 +3,9 @@
 
 <html>
 <head>
+    
+    <link rel="stylesheet" type="text/css" href="~/Animation.css">
+    <link rel="stylesheet" type="text/css" href="~/AnimationINFO.css">
     <meta name="viewport" content="width=device-width" />
     @*links to any scripts you need*@
     @*link style sheet*@
@@ -11,11 +14,11 @@
     <style>
         body{
             /*background-color: red;*/
-            background-image: url("http://nuclearpixel.com/content/blog/2010-05-14_nuclear_pixel_5_space_background_wallpapers/nuclearpixel_dot_com_-_space_bg_wallpaper_1920x1200.jpg");
+            background-image: url("http://i.imgur.com/utTVJjV.jpg");
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-position: center; 
-            background-color: #3D4036
+            background-color: #183C69;
         }
         iframe{
             background-position:center
@@ -23,13 +26,24 @@
         .button {
             padding: 5px;
             /*background-color: #F3FFD9;*/
-            enable-background:accumulate;
+            /*enable-background:accumulate;*/
             
-            border: 1px solid #666;
+            border: 1px solid;
             color: white;
             text-decoration: none;
             display:normal;
             vertical-align: middle;
+            text-shadow: 5px 5px 5px #000000;
+            /*-webkit-transition: color 1s ease-in-out;*/
+            -webkit-transition: color, background, 1s ease-in-out;
+            transition: color, background, border, 1s ease-in-out;
+            /*transition: color 1s ease-in-out;*/
+         }
+        .button:hover{
+            background: #000;
+        color: #107FE8;
+        border: 1px solid #666;
+    
         }
         .divider {
             width:30px;
@@ -48,13 +62,73 @@
             float:left;
         }
         h2{
-            color:white;
+            
+
+        color: white;
         }
         h3{
             color:white;
         }
+        #iframe_main:hover {
+        -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        -o-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
+        /*position:fixed;*/
+        height: 100%;
+        width: 60%
+        }
+        
+
+        #idiv {
+
+            position:fixed;
+            top: 41px;
+            left: 12%;
+            right: 0px;
+            bottom: 0px;
+            z-index: 100;
+        }
+        #iframe_ref:hover {
+            -webkit-transition: all 1s ease-in-out;
+            -moz-transition: all 1s ease-in-out;
+            -o-transition: all 1s ease-in-out;
+            transition: all 1s ease-in-out;
+            position:fixed;
+            height: 100%;
+            width: 60%;
+            
+        }
+        #iref{
+            position:fixed;
+            top: 41px;
+            left: 54%;
+            right: 0px;
+            bottom: 0px;
+            z-index: 100;
+                 
+             }
+       p{
+           color:white;
+           font-size:18px;
+       }
+      div div div h2{
+          color:red;
+          margin-left: 40%;
+      }
+      #gravtext h2{
+          color:red;
+          margin-left: 40%;
+      }
+      .blackbox{
+          width: 300px;
+          height: 300px;
+          z-index: -2;
+          background-color:black;
+      }
 
 </style>
+
     <title>_layout</title>
 </head>
 <body>
@@ -72,14 +146,16 @@
                 <div class="divider"></div>
                 <li><a class="button" href="/Home/Project">Projects</a></li>
                 <div class="divider"></div>
-                <li><a class="button" href="/Home/Blog">Blog</a></li>
+                @*<li><a class="button" href="/Home/Blog">Blog</a></li>
                 <div class="divider"></div>
-                <li><a class="button" href="/Home/Contact">Contact</a></li>
+                <li><a class="button" href="/Home/Contact">Contact</a></li>*@
             </ul>
         </nav>
+        
     </header>
     <div> 
         @RenderBody()
     </div>
+
 </body>
 </html>
